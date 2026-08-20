@@ -2,7 +2,7 @@
 
 ## Strut
 
-*Live on the App Store*
+*[Live on the App Store](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)*
 
 An iOS app that ties phone access to walking. You pick apps to block and a daily step goal; during your active hours those apps are shielded, and you earn them back by hitting your step pace. Streaks, screen-time history, and friend leaderboards on top.
 
