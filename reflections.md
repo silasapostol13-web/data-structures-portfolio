@@ -10,6 +10,7 @@ Project summaries live in [Projects](projects.md).
 
 ## Strut
 
+### You can't keep a step count fresh
 
 The premise depends on knowing the user's step count the moment they try to open a blocked app. iOS gives you no way to guarantee that. HealthKit background delivery is throttled. Background tasks are discretionary — the system runs them when convenient, never when you need. DeviceActivity wakes your extension on schedule but caps you at 20 monitors total, so even the best case is coarse polling.
 
@@ -47,6 +48,7 @@ It should be a typed shared framework with day-keying handled once. I avoided it
 
 ## Dossier
 
+### A result that changed every time you retook it
 
 The app sorts users into one of 32 categories using a high/low split across five traits — a 5-bit key. The problem: all five cuts land at the population median, which is exactly where most people sit. A trait wobbling from 51 to 49 changes the answer.
 
