@@ -17,11 +17,9 @@ plus the problems I hit building apps outside of class.
   surface Apple designed so it can't leave.
 - **Friend search in a database with no substring queries** — Firestore has no `LIKE`.
 
-*From Dossier (also on the App Store):*
-- **A result that changed every time you retook it**
-- **Comparing two people with no server**
-- **Testing a distribution instead of a value** — how do you write an assertion for
-  something that isn't supposed to return the same answer twice?
+*Dossier* is on the site too, but written up differently — it was an experiment in how
+far one tightly-specified prompt could get without follow-up conversation. The
+specification is mine; the implementation isn't, and the page says so.
 
 **[Debugging journal](debugging.md)** — bugs worth remembering. Starts with a hash
 comparison that never matched, which was silently destroying users' screen-time history
