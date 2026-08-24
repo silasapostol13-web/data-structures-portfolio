@@ -25,16 +25,28 @@ Built and operated solo — design, engineering, backend, pricing, analytics and
 
 ## Dossier
 
-An offline personality assessment app for iPhone. Five-trait model, results you can
-compare with friends and family. No account, no backend, no network calls at any point —
-comparison happens by passing a short text code between devices.
+*On the App Store*
 
-**Stack:** Swift, SwiftUI, iOS 17+. Observation for state, Swift Concurrency (actors,
-async/await), StoreKit 2. Zero third-party dependencies.
+An offline personality assessment app — five-trait model, with results you can compare
+against friends and family. No account, no backend, no network calls: comparison works
+by passing a short text code between devices.
 
-→ Reflections: [a result that changed every retake](reflections.md#a-result-that-changed-every-time-you-retook-it) ·
-[comparing two people with no server](reflections.md#comparing-two-people-with-no-server) ·
-[testing a distribution instead of a value](reflections.md#testing-a-distribution-instead-of-a-value)
+**This one was an experiment, and the experiment was the point.** I wanted to know how
+far a single, tightly-specified prompt could get on its own, so I gave Claude Code one
+instruction and no follow-up conversation: build an app that feeds and converts itself,
+with no backend of any kind so it needs no maintenance, and make it easy to share on
+social media. I went to bed, and put the result on the App Store the next morning.
+
+Every constraint in that prompt was deliberate. No backend means no running cost and
+nothing to keep alive. Shareability was the growth mechanic. What I was testing was
+whether the constraints could carry the design — whether specifying the *shape* of a
+product precisely enough would produce something shippable without me steering it.
+
+The implementation is the model's, not mine, and I'm not going to claim the engineering
+decisions inside it as my own. What I own is the specification and the decision to ship.
+
+**Stack:** Swift, SwiftUI, iOS 17+. No third-party dependencies.
+
 
 ## Course Projects
 
