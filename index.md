@@ -18,3 +18,4 @@ Welcome to my Data Structures portfolio. This site documents my learning, debugg
 - [Reflections](reflections.md)
 - [Projects](projects.md)
 - [Debugging Journal](debugging.md)
+- [AI Credo](ai-credo.md)
