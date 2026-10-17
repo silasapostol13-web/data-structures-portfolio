@@ -7,9 +7,9 @@ UNC Charlotte
 
 ## About Me
 
-I am a 21 year old computer science student at UNC Charlotte with a concentration in generative AI.
+I am a 21 year old computer science student at UNC Charlotte with a concentration in AI-Assisted Software Engineering.
 
-Outside of class I build iOS apps. I shipped Strut, a step-goal app blocker, to the App Store as a solo developer using Swift and SwiftUI.
+Outside of class I build iOS apps. Strut, a step-goal app blocker, is live on the App Store.
 
 Welcome to my Data Structures portfolio. This site documents my learning, debugging process, and projects throughout the semester.
 

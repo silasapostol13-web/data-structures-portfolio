@@ -6,7 +6,7 @@ what broke, what I tried, and what I'd do differently — are in
 
 ## Strut
 
-*[Live on the App Store](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)*
+*[Live on the App Store](https://apps.apple.com/us/app/strut-steps-earn-screen-time/id6761438303)*
 
 An iOS app that ties phone access to walking. You pick the apps that eat your day and a
 daily step goal; during your active hours those apps are shielded, and you earn them
@@ -14,10 +14,9 @@ back by hitting your step pace. Streaks, screen-time history, and friend leaderb
 top.
 
 **Stack:** Swift, SwiftUI, HealthKit, FamilyControls / DeviceActivity / ManagedSettings,
-WidgetKit, ActivityKit, WatchConnectivity, StoreKit 2, Firebase. Eight Xcode targets
-running across five separate processes.
+WidgetKit, ActivityKit, WatchConnectivity, StoreKit 2, Firebase.
 
-Built and operated solo — design, engineering, backend, pricing, analytics and marketing.
+I make every product decision and run it end to end: design, pricing, analytics and marketing.
 
 → Reflections: [keeping a step count fresh](reflections.md#you-cant-keep-a-step-count-fresh) ·
 [reading out of a one-way sandbox](reflections.md#reading-data-out-of-a-one-way-sandbox) ·
@@ -47,7 +46,3 @@ decisions inside it as my own. What I own is the specification and the decision 
 
 **Stack:** Swift, SwiftUI, iOS 17+. No third-party dependencies.
 
-
-## Course Projects
-
-Implementations from ITSC 2214, added as the semester goes on.
